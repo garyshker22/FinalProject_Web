@@ -1,0 +1,94 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Navbar*/
+
+.navbar{
+    position: relative;
+    background-color: #007bff;
+}
+
+/* Main */
+
+.main .content .container textarea, .main .content .container input {
+    margin:auto;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+#title{
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.main {
+    background-image: url("back1.jpg");
+    bottom: 0;
+}
+
+#result{
+    color: white;
+    background-color: black;
+}
+
+/* Footer */
+
+footer.html
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    position: static;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #007bff;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: rgb(255, 255, 255);
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    color: rgb(255, 255, 255);
+}
+.footer-bottom{
+    background: #0064d0;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
